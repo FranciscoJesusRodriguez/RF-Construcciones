@@ -661,6 +661,9 @@ fieldset {
 	h1 {
 		text-align: center;
 	}
+	main{
+		padding-top: 0px;
+	}
 	.container {
 		max-width:400px;
 		width:100%;
