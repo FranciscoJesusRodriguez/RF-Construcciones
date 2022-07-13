@@ -12,12 +12,14 @@
 .header{
     background-color: #314652;
 	top:0;
+	padding: 8px 0px 10px 0px;
+	margin-bottom: 20px; 
 	left: 0;
 	right: 0;
 	position: fixed;
 }
 main {
-	padding-top: 30px;
+	padding-top: 50px;
 	margin:16px;
 }
 h1 {
@@ -27,7 +29,7 @@ body {
     background-color:#131111;
     color: white;
     font-family: 'Cairo', sans-serif;
-	font-size: medium;
+	font-size: 17px;
 	min-height: 100%;
 }
 html {
@@ -254,7 +256,7 @@ footer{
 	position:relative;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px 'Cairo', sans-serif; }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] { font:400 13px/16px 'Cairo', sans-serif; }
 
 #contact {
 	background:#F9F9F9;
@@ -265,14 +267,14 @@ footer{
 #contact h3 {
 	color: #F96;
 	display: block;
-	font-size: 30px;
+	font-size: 32px;
 	font-weight: 400;
 }
 
 #contact h4 {
 	margin:5px 0 15px;
 	display:block;
-	font-size:13px;
+	font-size:15px;
 }
 
 fieldset {
@@ -312,7 +314,7 @@ fieldset {
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
-	font-size:15px;
+	font-size:17px;
 }
 
 #contact button[type="submit"]:hover {
