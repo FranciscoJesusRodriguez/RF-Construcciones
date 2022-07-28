@@ -1,0 +1,25 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "<h1>RF Construcciones - Proyecto CoderHouse</h1>\r <p>Este sito es para una empresa constructora pensada para el curso de desarrollo web.</p>",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoJesusRodriguez/RF-Construcciones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranciscoJesusRodriguez/RF-Construcciones/issues"
+  },
+  "homepage": "https://github.com/FranciscoJesusRodriguez/RF-Construcciones#readme"
+}

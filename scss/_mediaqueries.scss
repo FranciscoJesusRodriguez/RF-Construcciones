@@ -1,0 +1,194 @@
+
+@media only screen and (min-width: 1025px){
+    %MarginContainers{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .container__servicios  {
+        @extend %MarginContainers;
+    }
+    .container__alquiler{
+        @extend %MarginContainers;
+    }
+    .container__obras{
+        @extend %MarginContainers;
+    }
+    .buttons {
+        min-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px){
+
+    %MarginLarge{
+        margin-left: 10px;
+		margin-right: 10px;
+    }
+	p {
+		text-align: center;
+	}
+	.container__iframeMaps {
+		display: flex;
+		justify-content: center;
+	}
+	footer {
+		@extend %MarginLarge;
+		p {
+			font-size: small;
+		}
+	}
+	h1 {
+		text-align: center;
+	}
+	.navbar-nav {
+		flex-direction: row;
+		justify-content: center;
+	}
+	.nav-item {
+		@extend %MarginLarge;
+	}
+	.buttons {
+		min-width: 440px;
+		display: flex;
+		justify-content: center ;
+		a {
+			font-size: 28px;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+		}
+	}
+	.container__servicios {
+		padding: 10px;
+		margin: 10px;
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width:480px) and (max-width:899px){
+
+    %MarginMedium{
+        margin-left: 10px;
+		margin-right: 10px;
+    }
+	p {
+		text-align: center;
+	}
+	.icontainer__iframeMaps {
+		display: flex;
+		justify-content: center;
+	}
+	footer {
+		@extend %MarginMedium;
+		p {
+			font-size: small;
+		}
+	}
+	h1 {
+		text-align: center;
+	}
+	.container {
+		max-width:440px;
+		width:100%;
+		margin:0 auto;
+		position:relative;
+	}
+	.navbar-nav {
+		flex-direction: row;
+		justify-content: center;
+	}
+	.nav-item {
+		@extend %MarginMedium;
+	}
+	.buttons {
+		min-width: 400px;
+		display: flex;
+		justify-content: center ;
+		a {
+			font-size: 28px;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+		}
+	}
+	.container__servicios {
+		margin-left: 5px;
+		margin-right: 5px;
+		align-items: center;
+		text-align: center;
+		&--img {
+			padding: 3px;
+			margin: 8px;
+		}
+	}
+	.container__alquiler {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:479px){
+
+    %MarginSmall{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+	p {
+		text-align: center;
+	}
+	.container__iframeMaps {
+		display: flex;
+		justify-content: center;
+	}
+    .container__obras{
+        @extend %MarginSmall;
+    }
+	footer {
+		text-align: center;
+		p {
+			font-size: smaller;
+		}
+	}
+	h1 {
+		text-align: center;
+	}
+	main {
+		padding-top: 80px;
+	}
+	.container {
+		max-width:400px;
+		width:100%;
+		margin:0 auto;
+		position:relative;
+	}
+	#navbarNav {
+		justify-content: center;
+		text-align: center;
+		justify-content:flex-start;
+	}
+	.buttons {
+		min-width: 300px;
+		display: flex;
+		@extend %MarginSmall;
+		a {
+			font-size: 28px;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+		}
+	}
+	.container__servicios {
+		@extend %MarginSmall;
+		align-items: center;
+		text-align: center;
+	}
+	.container__alquiler {
+		@extend %MarginSmall;
+		&--encabezado {
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 20px;
+		}
+	}
+} 
