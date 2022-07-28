@@ -129,11 +129,6 @@
 
 @media only screen and (min-width:300px) and (max-width:479px){
 
-    %MarginSmall{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
 	p {
 		text-align: center;
 	}
@@ -141,9 +136,6 @@
 		display: flex;
 		justify-content: center;
 	}
-    .container__obras{
-        @extend %MarginSmall;
-    }
 	footer {
 		text-align: center;
 		p {
@@ -170,7 +162,8 @@
 	.buttons {
 		min-width: 300px;
 		display: flex;
-		@extend %MarginSmall;
+		margin-left: 5px;
+        margin-right: 5px;
 		a {
 			font-size: 28px;
 			width: 50px;
@@ -179,12 +172,10 @@
 		}
 	}
 	.container__servicios {
-		@extend %MarginSmall;
 		align-items: center;
 		text-align: center;
 	}
 	.container__alquiler {
-		@extend %MarginSmall;
 		&--encabezado {
 			margin-left: auto;
 			margin-right: auto;

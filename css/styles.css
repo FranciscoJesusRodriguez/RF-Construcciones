@@ -82,9 +82,6 @@
     margin-right: 5px; } }
 
 @media only screen and (min-width: 300px) and (max-width: 479px) {
-  .container__obras, .buttons, .container__servicios, .container__alquiler {
-    margin-left: 5px;
-    margin-right: 5px; }
   p {
     text-align: center; }
   .container__iframeMaps {
@@ -109,7 +106,9 @@
     justify-content: flex-start; }
   .buttons {
     min-width: 300px;
-    display: flex; }
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px; }
     .buttons a {
       font-size: 28px;
       width: 50px;
