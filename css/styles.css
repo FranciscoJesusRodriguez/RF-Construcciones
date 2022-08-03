@@ -162,6 +162,10 @@
 .collapse {
   margin-right: 20px; }
 
+.container__objetivos, .container__encabezado--index p, .container__iframeMaps iframe {
+  margin-left: auto;
+  margin-right: auto; }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -199,8 +203,6 @@ footer {
   margin-bottom: 20px;
   padding: 5px 20px 5px 0px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   transition: all .5s ease-in-out; }
   .container__objetivos:hover {
     color: #ceba23;
@@ -214,8 +216,6 @@ footer {
 .container__encabezado--index p {
   max-width: 1200px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 20px; }
 
 .container__encabezado--index h1 {
@@ -224,8 +224,6 @@ footer {
 .container__iframeMaps iframe {
   display: block;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 20px; }
 
 .container__constructores {
