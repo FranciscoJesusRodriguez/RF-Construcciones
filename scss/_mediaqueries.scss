@@ -16,6 +16,9 @@
     .buttons {
         min-width: 700px;
     }
+	.carousel{
+		@extend %MarginContainers;
+	}
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1024px){
@@ -181,5 +184,8 @@
 			margin-right: auto;
 			margin-bottom: 20px;
 		}
+	}
+	.carousel-caption{
+		position: sticky;
 	}
 } 
