@@ -28,6 +28,7 @@ body {
 	font-size: $BodyFontSize;
 	min-height: 100%;
 }
+
 html {
 	height: 100%;
 }
@@ -35,6 +36,7 @@ footer {
     text-align: center;
 	margin-top: 40px;
 }
+
 .carousel-caption{
 	background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
@@ -161,7 +163,10 @@ footer {
 	
 } 
 
+
+
 /* ...... BOTONES REDES SOCIALES ...... */
+
 .buttons {
     display: flex;
     justify-content: center ;
@@ -203,7 +208,10 @@ footer {
 	transform: scale(1.2);
 }
 
+
+
 /* ...... FORMULARIO DE CONTACTO ......*/
+
 .container {
 	max-width:400px;
 	width:100%;
@@ -280,6 +288,26 @@ fieldset {
 }
 
 #contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact button[type="reset"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background: $HeaderColor;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:5px;
+	font-size:17px;
+}
+
+#contact button[type="reset"]:hover {
+	background: $NavH1Color;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="reset"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
 #contact input:focus, #contact textarea:focus {
 	outline:0;
